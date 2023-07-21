@@ -65,7 +65,7 @@ h1, h2 {
 }
 
 h1 {
-    margin-top: 160px;
+    padding-top: 160px;
 }
 
 h2 {
@@ -78,7 +78,8 @@ li {
 }
 
 .photo {
-    text-align: center;
+    width: 636px;
+    margin: 0 auto;
 }
 
 .contanier {
@@ -103,7 +104,7 @@ li {
     margin: 80px 0 160px;
 }
 
-.title {
+h3 {
     border-bottom: 3px solid #AE0000;
     font-size: 40px;
     line-height: 60px;
@@ -111,11 +112,21 @@ li {
 }
 
 .info {
-    margin: 16px 0 32px;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 40px;
 }
 
-.info li {
+.mb-8 {
     margin-bottom: 8px;
+}
+
+.mb-16 {
+    margin-bottom: 16px;
+}
+
+.mb-12 {
+    margin-bottom: 12px;
 }
 
 .info a {
@@ -132,14 +143,6 @@ li {
     line-height: 30px;
     font-style: italic;
     color: #949494;
-}
-
-.exper {
-    margin: 16px 0 24px;
-}
-
-.exper li {
-    margin-bottom: 16px;
 }
 
 .footer {
